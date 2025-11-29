@@ -1,7 +1,7 @@
 [project]
 name = "cliche-constants"
-version = "0.1.0"
-description = "Planck and Cliche infrared cutoff scales for cosmology."
+version = "0.2.0"
+description = "Planck and Cliche infrared cutoff scales (length, time, and temperature) for cosmology."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
