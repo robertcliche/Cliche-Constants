@@ -1,32 +1,38 @@
-# Q: What is special about the Planck length?
+# What is special about the Planck length?
 
-The **Planck length** $\ell_P$ is often described as the “smallest meaningful length” in physics:
+The **Planck length** is defined as
 
-$$
-\ell_P = \sqrt{\frac{\hbar G}{c^3}} \approx 1.6 \times 10^{-35} \,\text{m}
-$$
+\[
+\ell_P = \sqrt{\frac{\hbar G}{c^3}}.
+\]
 
-It’s special because it’s the unique length scale you can build out of:
+It is built from the three constants that define gravity and quantum mechanics:
 
-- $c$: the speed of light  
-- $\hbar$: the reduced Planck constant  
-- $G$: Newton’s gravitational constant  
+- \(G\): Newton's gravitational constant
+- \(\hbar\): reduced Planck constant
+- \(c\): speed of light
 
-At this scale:
+This makes \(\ell_P\) the unique length scale you can form purely from those constants.
 
-- **Quantum mechanics** (via $\hbar$)  
-- **Relativity** (via $c$)  
-- **Gravity** (via $G$)
+## Why does it matter?
 
-all become equally important. Our usual separation of “smooth spacetime” and “quantum fields on that spacetime” breaks down, and we expect a full theory of **quantum gravity** to be required.
+In ordinary quantum field theory on a fixed background, we can keep pushing to shorter and shorter distances in principle. However, once you combine quantum mechanics with general relativity, high‑energy probes of very small regions are expected to create strong gravitational fields and eventually black holes.
 
----
+A rough cartoon is:
 
-## How this motivates the Cliche Length
+- To localize a particle to a very small region \(\Delta x\), you need very large momentum \(p\).
+- Very large \(p\) means very large energy \(E\), which gravitates.
+- At some point the energy density in the region is large enough to form a black hole whose Schwarzschild radius is comparable to the region you are trying to probe.
 
-The **Cliche Length** $\ell^R$ is the playful “opposite number” to $\ell_P$:
+Balancing these effects leads to a lower bound on the size of a region that can be meaningfully resolved. That bound is of order the Planck length, \(\ell_P\).
 
-- $\ell_P$: where spacetime is **too small** for classical geometry to make sense  
-- $\ell^R$: where spacetime is **too large** to stay causally coherent for a single observer
+This does **not** mean that space is literally made of Planck‑sized pixels, only that our familiar notions of distance are expected to stop making sense below that scale.
 
-In both cases, the constants of nature are telling us that our usual description of physics has a range of validity, rather than working at all scales without modification.
+## Relation to Cliche Length
+
+The Cliche‑Constants project uses:
+
+- Planck length \(\ell_P\) as a **UV** cutoff: smallest meaningful scale.
+- Cliche length \(\ell^R = c / H_0\) as an **IR** cutoff set by the present Hubble expansion.
+
+Together, they bracket the regime where our effective descriptions of spacetime and matter are expected to work well.
