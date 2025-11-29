@@ -1,0 +1,21 @@
+[project]
+name = "cliche-constants"
+version = "0.1.0"
+description = "Planck and Cliche infrared cutoff scales for cosmology."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Robert Cliche" }
+]
+
+[project.urls]
+Homepage = "https://github.com/robertcliche/Cliche-Constants"
+
+[project.scripts]
+cliche-constants = "cliche_constants:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
